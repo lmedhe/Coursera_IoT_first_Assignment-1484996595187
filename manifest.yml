@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Coursera_IoT_first_Assignment
+  host: Coursera-IoT-First-Assignment
+  disk_quota: 1024M
+  services:
+  - Coursera_IoT_first_Assignment-cloudantNoSQLDB
+  - Coursera_IoT_first_Assignment-iotf-service
